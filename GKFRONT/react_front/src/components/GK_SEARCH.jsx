@@ -1,0 +1,25 @@
+// Default React Import
+import React from 'react';
+
+// Routing Imports
+import { A } from 'hookrouter';
+
+// Styling Imports
+import '../scss/GK_COMPONENTS.scss';
+
+
+export const GK_SEARCH = () => {
+    return (
+        <div>
+            <h1>Navigation Bar</h1>
+            <div className="GK_NAV">
+                <A href="/products">Products</A>
+                <A href="/community">Community</A>
+                <A href="/research">Research</A>
+                <A href="/about">About</A>
+            </div>
+        </div>
+    )
+}
+
+export default GK_SEARCH;
