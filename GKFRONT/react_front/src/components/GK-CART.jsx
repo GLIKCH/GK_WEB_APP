@@ -7,11 +7,12 @@ import { A } from 'hookrouter';
 // Styling Imports
 import '../scss/GK_COMPONENTS.scss';
 
-
-export const GK_SEARCH = () => {
+// JSX Constant Render
+export const GK_CART = () => {
     return (
-        <div></div>
+        <div id="GK-CR01">
+        </div>
     )
 }
 
-export default GK_SEARCH;
+export default GK_CART;
