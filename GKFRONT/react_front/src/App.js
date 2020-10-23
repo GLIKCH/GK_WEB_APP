@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Styling SCSS Imports
-import './App.scss';
+import './scss/GK_App.scss';
 
 // Image Imports
 
@@ -10,7 +10,8 @@ import './App.scss';
 // Component Imports
 import GK_NAV from './components/GK_NAV';
 import GK_LOGO from './components/GK_LOGO';
-import GK_CONT from './components/GK_CONTENT';
+// import GK_CART from './components/GK-CART';
+import GK_CONT from './components/GK_CONT';
 
 function App() {
   return (
@@ -18,10 +19,10 @@ function App() {
         <header className="GK-CH01">
           <GK_LOGO className="GK-CL01"/>
           <GK_NAV className="GK-CN01" />
-          <div className="GK-CC01"></div>
+          {/*<GK_CART className="GK-CC01" /> */}
         </header>
 
-        <GK_CONT className="GK-CT01" />
+        <GK_CONT className="GK-CW01" />
         </div>
   );
 }
@@ -37,3 +38,4 @@ export default App;
 
 // -- Component GK_LOGO.jsx
 // GK-IC01 = main content Image
+// GK-IG01 = main content Image

@@ -1,0 +1,97 @@
+// Component ID's
+
+#GK-LI01 {
+    width: 20em;
+}
+
+// All Href Link CSS Porperties
+
+#LINK1,
+#LINK2,
+#LINK3,
+#LINK4 {
+    padding: .25em;
+    background: linear-gradient(0deg, #ff0000, #ffc400);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#LINK1 {
+    font-family: HermesRegular;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    margin-top: .50em;
+    margin-bottom: .50em;
+    margin-left: .50em;
+    margin-right: .50em;
+}
+
+#LINK2 {
+    font-family: HermesRegular;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    margin-top: .50em;
+    margin-bottom: .50em;
+    margin-left: .50em;
+    margin-right: .50em;
+}
+
+#LINK3 {
+    font-family: HermesRegular;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    margin-top: .50em;
+    margin-bottom: .50em;
+    margin-left: .50em;
+    margin-right: .50em;
+}
+
+#LINK4 {
+    font-family: HermesRegular;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    margin-top: .50em;
+    margin-bottom: .50em;
+    margin-left: .50em;
+    margin-right: .50em;
+}
+
+#LINK1:hover,
+#LINK2:hover,
+#LINK3:hover,
+#LINK4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+	text-decoration-color: rgba($color: #bf000048, $alpha: 1.0);
+	-webkit-text-decoration-color: red;
+}
+
+#GK-NM01 {
+    height: 4em;
+    margin-top: 3em;
+    margin-right: 0em;
+}
+
+#GK-LD01 {
+    width: 20em;
+    margin-top: -.2em;
+    margin-left: 3em;
+    margin-right: 6em;
+}
+
+#GK-CN01 {
+    width: 60em;
+    background-color: green;
+}
+
+
+
+// Font Imports
+@font-face {
+    font-family: HermesRegular;
+    src: url("../fonts/Hermes-Regular.otf");
+}
