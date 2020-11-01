@@ -4,26 +4,14 @@ import React from 'react';
 // Styling SCSS Imports
 import './scss/GK_App.scss';
 
-// Image Imports
-
-
 // Component Imports
-import GK_NAV from './components/GK_NAV';
-import GK_LOGO from './components/GK_LOGO';
-// import GK_CART from './components/GK-CART';
-import GK_CONT from './components/GK_CONT';
+import GK_HOME from './pages/GK_HOME';
 
 function App() {
   return (
     <div className="App">
-        <header className="GK-CH01">
-          <GK_LOGO className="GK-CL01"/>
-          <GK_NAV className="GK-CN01" />
-          {/*<GK_CART className="GK-CC01" /> */}
-        </header>
-
-        <GK_CONT className="GK-CW01" />
-        </div>
+       <GK_HOME />
+       </div>
   );
 }
 

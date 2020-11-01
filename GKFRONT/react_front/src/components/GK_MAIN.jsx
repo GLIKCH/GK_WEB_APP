@@ -5,15 +5,14 @@ import React from 'react';
 import GKC01 from '../images/cart01.png';
 
 // Routing Imports
-import '../scss/GK_COMP.scss';
 
 // Styling Imports
 
 // JSX Constant Render
-export const GK_CART = () => {
+export const GK_MAIN = () => {
     return (
-        <div id="GK-CC01">
-            <img src={GKC01} alt="CALT_ALT"/>
+        <div className="GK-CC01">
+            <img id="CART01" src={GKC01} alt="CALT_ALT"/>
         </div>
     )
 }

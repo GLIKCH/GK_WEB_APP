@@ -5,7 +5,6 @@ import React from 'react';
 import { A } from 'hookrouter';
 
 // Styling Imports
-import '../scss/GK_COMP.scss';
 
 
 export const GK_SEARCH = () => {
