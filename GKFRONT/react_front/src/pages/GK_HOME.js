@@ -63,14 +63,6 @@ class GK_HOME extends React.Component {
                    </section>
                  <section id="com_view">6</section>
                  <main className="GK_SHOP">
-                   <div className="store_item">1</div>
-                   <div className="store_item">2</div>
-                   <div className="store_item">3</div>
-                   <div className="store_item">4</div>
-                   <div className="store_item">5</div>
-                   <div className="store_item">6</div>
-                   <div className="store_item">7</div>
-                   <div className="store_item">8</div>
                    </main>
          </div>
     );}}
