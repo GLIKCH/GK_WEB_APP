@@ -1,27 +1,44 @@
-// Important Imports
+// Main JSX React imports
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 // Routing Imports
-import { useRoutes, A } from 'Hookrouter';
-import routes from './router';
+import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
 
-// Image Imports
-import logo from './logo.svg';
+// Component Imports
+import GK_HOME from './pages/GK_HOME';
+import GK_SHOP from './pages/GK_SHOP';
+import GK_BLOG from './pages/GK_BLOG';
+import GK_CONTACT from './pages/GK_CONTACT';
 
 // SCSS Imports
-import './App.css';
+import './scss/App.scss';
 
-// Main App Funciton
+// Image Imports
+
+
+// JSX Component and Return
 function App() {
-  const routeResult = useRoutes(routes);
   return (
     <div className="App">
-      <header className="App-header">
-        <A href="/">Test Link</A>
-      </header>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <GK_HOME />
+          </Route>
+          <Route path="/products">
+            <GK_SHOP />
+          </Route>
+          <Route path="/blog">
+            <GK_BLOG />
+          </Route>
+          <Route path="/contact">
+            <GK_CONTACT />
+          </Route>
+        </Switch>
+      </Router>
     </div>
-  );
-}
+    );
+  }
 
+// Default Export Method for Component
 export default App;

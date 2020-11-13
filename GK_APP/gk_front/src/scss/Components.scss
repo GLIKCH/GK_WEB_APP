@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.MainHeader {
+    background-color: rgba(150, 0, 0, 0.400);
+    width: 100px;
+}
+
+.MainLogoImg {
+    position: relative;
+    width: 30em;
+}
+
+.MV-Video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
