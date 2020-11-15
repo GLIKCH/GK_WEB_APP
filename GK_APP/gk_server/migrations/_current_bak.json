@@ -1,0 +1,93 @@
+{
+    "tables": {
+        "gkuserdata": {
+            "tableName": "gkuserdata",
+            "schema": {
+                "primaryKey": {
+                    "allowNull": false,
+                    "defaultValue": {
+                        "value": 0
+                    },
+                    "primaryKey": true,
+                    "field": "primaryKey",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "userid": {
+                    "allowNull": true,
+                    "field": "userid",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "username": {
+                    "allowNull": true,
+                    "unique": "username_UNIQUE",
+                    "field": "username",
+                    "seqType": "Sequelize.STRING(75)"
+                },
+                "useremail": {
+                    "allowNull": true,
+                    "unique": "useremail_UNIQUE",
+                    "field": "useremail",
+                    "seqType": "Sequelize.STRING(45)"
+                },
+                "userpassword": {
+                    "allowNull": false,
+                    "field": "userpassword",
+                    "seqType": "Sequelize.STRING(45)"
+                },
+                "usercartitems": {
+                    "allowNull": true,
+                    "defaultValue": {
+                        "value": 0
+                    },
+                    "field": "usercartitems",
+                    "seqType": "Sequelize.INTEGER"
+                }
+            },
+            "indexes": {
+                "5452e50bb9d28923c63bf63f133f1b128fe7c4f2": {
+                    "name": "PRIMARY",
+                    "unique": true,
+                    "using": "BTREE",
+                    "fields": [
+                        {
+                            "name": "primaryKey"
+                        }
+                    ],
+                    "options": {
+                        "indexName": "PRIMARY",
+                        "indicesType": "UNIQUE"
+                    }
+                },
+                "0e5f0d947937f8dca220aef6547223ffc2270132": {
+                    "name": "username_UNIQUE",
+                    "unique": true,
+                    "using": "BTREE",
+                    "fields": [
+                        {
+                            "name": "username"
+                        }
+                    ],
+                    "options": {
+                        "indexName": "username_UNIQUE",
+                        "indicesType": "UNIQUE"
+                    }
+                },
+                "ba974c67e40e3e6677d6506313f448b6af049dc7": {
+                    "name": "useremail_UNIQUE",
+                    "unique": true,
+                    "using": "BTREE",
+                    "fields": [
+                        {
+                            "name": "useremail"
+                        }
+                    ],
+                    "options": {
+                        "indexName": "useremail_UNIQUE",
+                        "indicesType": "UNIQUE"
+                    }
+                }
+            }
+        }
+    },
+    "revision": 2
+}

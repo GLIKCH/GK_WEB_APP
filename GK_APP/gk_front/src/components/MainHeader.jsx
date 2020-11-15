@@ -2,7 +2,10 @@
 import React from 'react';
 
 // Routing Imports
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+
 // Component Imports
+import GK_SHOP from '../pages/GK_SHOP';
 
 // SCSS Imports
 import '../scss/Components.scss';
@@ -18,7 +21,7 @@ export class MainHeader extends React.Component{
     constructor(props) {
         super(props);
         this.state = {
-           imgSrc: GKL01
+           logoImg: GKL01
         };
         this.handleMouseOver = this.handleMouseOver.bind(this);
         this.handleMouseOut = this.handleMouseOut.bind(this);
@@ -39,8 +42,24 @@ export class MainHeader extends React.Component{
     render(){
     return(
         <div className="MainHeader">
+          <Router>
             {/* Logo IMG Section */}
-            <img src={this.state.imgSrc} alt="Main-Logo" onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} />
+            <div id="id_logo_box">
+              <img id="id_logo" 
+                 src={this.state.logoImg} 
+                 alt="Main-Logo" 
+                 onMouseOver={this.handleMouseOver} 
+                 onMouseOut={this.handleMouseOut} />
+            </div>
+            <div id="id_nav">
+                <Link to="/products">Products</Link>
+                <Link to="/community">Community</Link>
+                <Link to="/research">Research</Link>
+                <Link to="/technews">News</Link>
+                <Link to="/contact">Contact</Link>
+            </div>
+            <div id="id_shop"></div>
+          </Router>
         </div>
     );
     }

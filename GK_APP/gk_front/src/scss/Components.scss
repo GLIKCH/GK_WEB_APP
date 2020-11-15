@@ -4,20 +4,39 @@
 }
 
 .MainHeader {
+    display: grid;
+    grid-template-columns: 25em 55em 20em;
+    grid-template-rows: 100%;
     background-color: rgba(150, 0, 0, 0.400);
-    width: 100px;
+    width: 100em;
+    position: relative; 
+    top: 1;
+    justify-content: center;
 }
 
-.MainLogoImg {
-    position: relative;
-    width: 30em;
+#id_logo {
+    justify-self: center;
+    align-self: center;
+    height: 4em;
+    padding: .40em;
+}
+// Child Objects of MainHeader DIV 
+#id_logo_box {
+    justify-self: center;
+    align-self: center;
+    grid-column: 1 / 2;
+    height: 4.5em;
 }
 
-.MV-Video {
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
+#id_nav {
+    grid-column: 2 / 3;
+    align-self: center;
+    background-color: ivory;
+    width: 50em;
+    height: 3.5em;
+}
+
+#id_shop {
+    grid-column: 3 / 4;
+    background-color: lawngreen;
+}

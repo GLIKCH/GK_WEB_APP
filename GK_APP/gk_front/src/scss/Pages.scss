@@ -1,36 +1,20 @@
-.H-Logo {
-  position: absolute;
-  grid-area: H-Logo;
-  margin-top: 3em;
-  margin-left: 5em;
-  width: 20em;
+.H-Home {
+  display: grid;
+  place-items: center;
 }
 
-.H-Video {
+#h_id_header {
+  display: grid;
+  place-items: center;
+  top: 1;
+}
+
+.h_id_video {
+  grid-column: 1 / 4;
   object-fit: cover;
   width: 100vw;
   height: 100vh;
   position: fixed;
-  top: 1;
-  left: 0;
-}
-
-#Header01 {
-  background-color: rgba(150, 0, 0, 0.400);
-  padding: 1em;
-  width: 15em;
-  height: 5em;
-  color: grey;
-  position: absolute;
   top: 0;
-  margin-top: 10em;
-  margin-left: 20em;
-}
-
-#input1 {
-  margin-left: 1em;
-}
-
-#input2 {
-  margin-left: 1em;
+  left: 0;
 }
