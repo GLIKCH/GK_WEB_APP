@@ -1,18 +1,30 @@
+@font-face {
+    font-family: HermesRegular;
+    src: url("../fonts/Hermes-Regular.otf");
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
+// Parent Header DIV
 .MainHeader {
     display: grid;
-    grid-template-columns: 25em 55em 20em;
+    grid-template-columns: 20em 55em 20em;
     grid-template-rows: 100%;
-    background-color: rgba(150, 0, 0, 0.400);
-    width: 100em;
+    margin-top: 2em;
     position: relative; 
     top: 1;
     justify-content: center;
 }
+
+.MainContent {
+    background-color: rgba(150, 0, 0, 0.400);
+    top: 1;
+}
+
+// Child Object ID of MainHeader DIV
 
 #id_logo {
     justify-self: center;
@@ -20,23 +32,70 @@
     height: 4em;
     padding: .40em;
 }
-// Child Objects of MainHeader DIV 
+
 #id_logo_box {
+    grid-column: 1 / 2;
     justify-self: center;
     align-self: center;
-    grid-column: 1 / 2;
     height: 4.5em;
 }
 
-#id_nav {
+#id_nav { 
+    display: flex;
     grid-column: 2 / 3;
+    justify-content: center;
+    justify-self: center;
     align-self: center;
-    background-color: ivory;
-    width: 50em;
+    background-color: rgba(150, 0, 0, 0.400);
     height: 3.5em;
 }
 
-#id_shop {
-    grid-column: 3 / 4;
-    background-color: lawngreen;
+#id_nav_link1,
+#id_nav_link2,
+#id_nav_link3,
+#id_nav_link4,
+#id_nav_link5 {
+    font-family: HermesRegular;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 1em;
+    margin: 1px;
+    text-decoration: none;
+    color: red;
 }
+
+#id_nav_link1:hover,
+#id_nav_link2:hover,
+#id_nav_link3:hover,
+#id_nav_link4:hover,
+#id_nav_link5:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba($color: #ff9900, $alpha: 1.0);
+    -webkit-text-decoration-color: red;
+}
+
+#id_shop {
+    display: flex;
+    grid-column: 3 / 4;
+    place-items: center;
+    justify-self: center;
+    align-self: center;
+    height: 5em;
+}
+
+#id_shop_link1 {
+    font-family: HermesRegular;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    padding: 1em;
+    margin: 1px;
+    text-decoration: none;
+    color: rgba($color: #ff9100, $alpha: 1.0);
+}
+
+
+
+
+

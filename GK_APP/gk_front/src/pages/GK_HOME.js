@@ -5,9 +5,10 @@ import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 // Component Imports
 import GKHeader from '../components/MainHeader';
-import GKVideo from '../videos/GK_BG02.mp4';
+import GKVideo from '../videos/GK_BG04.mp4';
 import GKLOGO from '../images/GKLOGO03.png'
 import MainHeader from '../components/MainHeader';
+import MainContent from '../components/MainContent';
 
 // SCSS Imports
 import '../scss/Pages.scss';
@@ -24,6 +25,7 @@ const Home = () => {
             <source src={GKVideo} type="video/mp4" />
             </video>
             <MainHeader className="h_id_header" />
+            <MainContent className="h_id_content" />
         </div>
     );
 }

@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
 
 // Component Imports
 import GK_HOME from './pages/GK_HOME';
+import GK_LOGIN from './pages/GK_LOGIN';
 import GK_SHOP from './pages/GK_SHOP';
 import GK_BLOG from './pages/GK_BLOG';
 import GK_CONTACT from './pages/GK_CONTACT';
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <GK_CONTACT />
+          </Route>
+          <Route path="/login">
+            <GK_LOGIN />
           </Route>
         </Switch>
       </Router>

@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
 // Component Imports
 import GK_SHOP from '../pages/GK_SHOP';
+import GK_LOGIN from '../pages/GK_LOGIN';
 
 // SCSS Imports
 import '../scss/Components.scss';
@@ -29,13 +30,13 @@ export class MainHeader extends React.Component{
     
       handleMouseOver() {
         this.setState({
-          imgSrc: GKL02
+          logoImg: GKL02
         });
       }
     
       handleMouseOut() {
         this.setState({
-          imgSrc: GKL01
+          logoImg: GKL01
         });
       }
 
@@ -52,13 +53,15 @@ export class MainHeader extends React.Component{
                  onMouseOut={this.handleMouseOut} />
             </div>
             <div id="id_nav">
-                <Link to="/products">Products</Link>
-                <Link to="/community">Community</Link>
-                <Link to="/research">Research</Link>
-                <Link to="/technews">News</Link>
-                <Link to="/contact">Contact</Link>
+                <Link id="id_nav_link1" to="/products">Products</Link>
+                <Link id="id_nav_link2" to="/community">Community</Link>
+                <Link id="id_nav_link3" to="/research">Research</Link>
+                <Link id="id_nav_link4" to="/technews">News</Link>
+                <Link id="id_nav_link5" to="/contact">Contact</Link>
             </div>
-            <div id="id_shop"></div>
+            <div id="id_shop">
+              <Link id="id_shop_link1" exact to="/login">Login / Register</Link>
+            </div>
           </Router>
         </div>
     );

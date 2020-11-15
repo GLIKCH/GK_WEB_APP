@@ -1,16 +1,8 @@
 .H-Home {
-  display: grid;
   place-items: center;
-}
-
-#h_id_header {
-  display: grid;
-  place-items: center;
-  top: 1;
 }
 
 .h_id_video {
-  grid-column: 1 / 4;
   object-fit: cover;
   width: 100vw;
   height: 100vh;
@@ -18,3 +10,17 @@
   top: 0;
   left: 0;
 }
+
+#h_id_header {
+  place-items: center;
+  top: 1;
+}
+
+#h_id_content {
+  display: grid;
+  place-items: center;
+  width: 300px;
+  position: relative;
+  top: 1;
+}
+
