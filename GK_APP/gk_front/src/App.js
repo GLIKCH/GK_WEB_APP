@@ -9,6 +9,8 @@ import GK_HOME from './pages/GK_HOME';
 import GK_LOGIN from './pages/GK_LOGIN';
 import GK_SHOP from './pages/GK_SHOP';
 import GK_BLOG from './pages/GK_BLOG';
+import GK_RESEARCH from "./pages/GK_RESEARCH";
+import GK_NEWS from "./pages/GK_NEWS";
 import GK_CONTACT from './pages/GK_CONTACT';
 
 // SCSS Imports
@@ -31,6 +33,12 @@ function App() {
           </Route>
           <Route path="/blog">
             <GK_BLOG />
+          </Route>
+          <Route path="/research">
+            <GK_RESEARCH />
+          </Route>
+          <Route path="/news">
+            <GK_NEWS />
           </Route>
           <Route path="/contact">
             <GK_CONTACT />

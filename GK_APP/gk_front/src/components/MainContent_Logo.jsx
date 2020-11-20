@@ -14,7 +14,7 @@ import GKL02 from '../images/Variations/GKL_NEON01.png';
 
 // JSX Component and Return
 
-export class MainHeader extends React.Component{
+export class MainLogin extends React.Component{
 
     constructor(props) {
         super(props);
@@ -39,29 +39,23 @@ export class MainHeader extends React.Component{
 
     render(){
     return(
-        <div className="MainHeader">
+        <div className="MainLogin">
             {/* Logo IMG Section */}
-            <div id="h_id_logo_box">
-              <a href="/" ><img id="h_id_logo" 
+            <div id="l_id_content">
+                <a href="/">
+                <img id="l_id_logo"
                  src={this.state.logoImg} 
                  alt="Main-Logo" 
                  onMouseOver={this.handleMouseOver} 
-                 onMouseOut={this.handleMouseOut} /></a>
-            </div>
-            <div id="h_id_nav">
-                <a id="h_id_nav_link1" href="/products">Products</a>
-                <a id="h_id_nav_link2" href="/blog">Community</a>
-                <a id="h_id_nav_link3" href="/research">Research</a>
-                <a id="h_id_nav_link4" href="/news">News</a>
-                <a id="h_id_nav_link5" href="/contact">Contact</a>
-            </div>
-            <div id="h_id_shop">
-              <a id="h_id_shop_link1" href="/login">Login</a>
-            </div>
+                 onMouseOut={this.handleMouseOut} />
+                </a>
+                <div id="input-container">
+                </div>
+              </div>
         </div>
     );
     }
 }
 
 // Default Export Method for Component
-export default MainHeader;
+export default MainLogin;

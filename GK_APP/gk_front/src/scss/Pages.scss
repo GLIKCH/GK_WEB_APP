@@ -1,26 +1,28 @@
-.H-Home {
-  place-items: center;
+// Responsive Media Querie @ XL
+@media (min-width: 1200px) {
+.h-home {
+  display: grid;
+  grid-template-columns: 5em 100em 5em;
+  grid-template-rows: 2em auto 2em auto 2em;
+  justify-content: center;
+  justify-items: center;
+  position: relative;
+  top: 1;
 }
-
-.h_id_video {
+// Responsive Full Screen Video
+#h_id_video {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+}
 }
 
-#h_id_header {
-  place-items: center;
-  top: 1;
+#l_id_video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
 }
-
-#h_id_content {
-  display: grid;
-  place-items: center;
-  width: 300px;
-  position: relative;
-  top: 1;
-}
-

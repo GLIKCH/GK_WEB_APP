@@ -2,11 +2,10 @@
 import React from 'react';
 
 // Routing Imports
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router, } from 'react-router-dom';
+
 // Component Imports
-import GKHeader from '../components/MainHeader';
-import GKVideo from '../videos/GK_BG04.mp4';
-import GKLOGO from '../images/GKLOGO03.png'
+import GKVideo from '../videos/GK_BG01.mp4';
 import MainHeader from '../components/MainHeader';
 import MainContent from '../components/MainContent';
 
@@ -19,13 +18,13 @@ import '../scss/Pages.scss';
 
 const Home = () => {
     return(
-        <div className="H-Home">
+        <div className="h-home">
             {/* Background Video*/}
-            <video className="h_id_video" autoPlay playsinline loop muted>
+            <video id="h_id_video" autoPlay playsinline loop muted>
             <source src={GKVideo} type="video/mp4" />
             </video>
-            <MainHeader className="h_id_header" />
-            <MainContent className="h_id_content" />
+            <MainHeader id="h_id_header" />
+            <MainContent id="h_id_content" />
         </div>
     );
 }
