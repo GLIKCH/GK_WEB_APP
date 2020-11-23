@@ -49,8 +49,20 @@ export class MainLogin extends React.Component{
                  onMouseOver={this.handleMouseOver} 
                  onMouseOut={this.handleMouseOut} />
                 </a>
-                <div id="input-container">
-                </div>
+                
+                <form id="l_id_form" action="/login">
+                <ol>
+                <li><label htmlFor="emaillabel">Email</label>
+                <input id="l_id_email1" name="emaillabel" type="email"/>
+                </li>
+
+                <li><label htmlFor="passlabel">Password</label>
+                <input id="l_id_pass1" name="passlabel" type="password"/>
+                </li>
+
+                <input type="submit" name="Submit" value="Agent Login" class="buttonSubmit" />
+                </ol>
+                </form>
               </div>
         </div>
     );

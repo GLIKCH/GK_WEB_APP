@@ -9,7 +9,7 @@ import GK_LOGO from '../components/MainContent_Logo';
 import '../scss/Pages.scss';
 
 // Video / Image Imports
-import GKVideo from '../videos/GK_BG04.mp4';
+import GKVideo from '../videos/GK_BG01.mp4';
 
 // JSX Component and Return
 

@@ -14,7 +14,7 @@
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: grid;
-    grid-template-columns: 20em auto 20em;
+    grid-template-columns: 30em auto 30em;
     justify-items: center;
     justify-content: center;
     align-items: center;
@@ -24,12 +24,19 @@
     top: 1;
 }
 
-// .MainContent {
-//     width: 100%;
-//     background-color: rgba(150, 0, 0, 0.400);
-//     position: relative;
-//     top: 1;
-// }
+.MainContent {
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    width: 80em;
+    height: 45em;
+    background-color: rgba(150, 0, 0, 0.400);
+    position: relative;
+    top: 1;
+}
 
 // Child Object ID of MainHeader DIV
 
@@ -89,11 +96,12 @@
 #h_id_shop {
     display: grid;
     grid-column: 3 / 4;
+    justify-items: center;
     align-self: center;
     align-items: center;
     width: 20em;
     height: 5em;
-    margin-left: 8em;
+    margin-right: 4em;
 }
 
 #h_id_shop_link1 {
@@ -108,12 +116,12 @@
 // Main Login JSX Component
 // Class Name Parent Tags
 .MainLogin {
-    place-items: center;
-    position: relative;
-    top: 1;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 10em auto 10em;
+    grid-template-rows: 20em auto 10em;
+    justify-content: center;
+    position: relative;
+    top: 1;
 }
 
 #l_id_content {
@@ -121,35 +129,38 @@
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 10em 25em 10em;
+    grid-template-rows: 8em 2em 10em;
     justify-content: center;
     justify-items: center;
     align-items: center;
     background-color: rgba(150, 0, 0, 0.400);
-    width: 100%;
-    height: 40em;
+    width: 45em;
+    height: 25em;
 }
 
 #l_id_logo {
-    grid-row: 2 / 4;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
     width: auto;
     height: 3.50em;
 }
 
 #l_id_form {
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
     background-color: rgba(200, 45, 45, 0.800);
-    width: 50em;
-    height: 100%;
+    width: 30em;
+    height: 15em;
     display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     justify-self: center;
+    align-self: center;
 }
 
-#l_id_email {
-    width: 100%;
+label {
     font-family: HermesRegular;
     margin: 1em;
-    display: block;
 }
 
 #l_id_password {
@@ -166,4 +177,21 @@
 #l_id_input2 {
     width: 25em;
     height: 1em;
+}
+
+#display1 {
+    display: inline;
+    height: 43em;
+    border-radius: 1em;
+}
+
+#display1:hover {
+    box-shadow: 0px 0px 10px 4px red;
+    height: 44em;
+    cursor: cell;
+    border-radius: 0em;
+}
+
+li {
+    list-style-type: none;
 }

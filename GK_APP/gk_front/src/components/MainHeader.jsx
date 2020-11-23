@@ -42,7 +42,7 @@ export class MainHeader extends React.Component{
         <div className="MainHeader">
             {/* Logo IMG Section */}
             <div id="h_id_logo_box">
-              <a href="/" ><img id="h_id_logo" 
+                <a href="/" ><img id="h_id_logo" 
                  src={this.state.logoImg} 
                  alt="Main-Logo" 
                  onMouseOver={this.handleMouseOver} 
@@ -56,7 +56,10 @@ export class MainHeader extends React.Component{
                 <a id="h_id_nav_link5" href="/contact">Contact</a>
             </div>
             <div id="h_id_shop">
-              <a id="h_id_shop_link1" href="/login">Login</a>
+                <a id="h_id_shop_link1" href="/login">
+                <div id="h_id_shop_box">Account
+                </div>
+                </a>
             </div>
         </div>
     );

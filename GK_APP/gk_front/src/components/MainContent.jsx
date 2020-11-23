@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import '../scss/Components.scss';
 
 // Video / Image Imports
+import Display1 from "../images/Sample2Test.png";
 
 // JSX Component and Return
 export class MainContent extends React.Component{
@@ -17,6 +18,7 @@ export class MainContent extends React.Component{
     render(){
     return(
         <div className="MainContent">
+            <a href=""><img id="display1" src={Display1} alt="cyber"></img></a>
         </div>
     );
     }

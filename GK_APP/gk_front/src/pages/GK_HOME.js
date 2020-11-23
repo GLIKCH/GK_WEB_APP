@@ -5,7 +5,7 @@ import React from 'react';
 import { BrowserRouter as Router, } from 'react-router-dom';
 
 // Component Imports
-import GKVideo from '../videos/GK_BG01.mp4';
+import GKVideo from '../videos/GK_BG04.mp4';
 import MainHeader from '../components/MainHeader';
 import MainContent from '../components/MainContent';
 
