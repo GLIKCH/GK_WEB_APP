@@ -50,7 +50,7 @@ export class MainHeader extends React.Component{
             </div>
             <div id="h_id_nav">
                 <a id="h_id_nav_link1" href="/products">Products</a>
-                <a id="h_id_nav_link2" href="/blog">Community</a>
+                <a id="h_id_nav_link2" href="/blog">Blog</a>
                 <a id="h_id_nav_link3" href="/research">Research</a>
                 <a id="h_id_nav_link4" href="/news">News</a>
                 <a id="h_id_nav_link5" href="/contact">Contact</a>
