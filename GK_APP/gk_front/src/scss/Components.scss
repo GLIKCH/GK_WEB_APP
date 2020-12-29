@@ -182,6 +182,14 @@
     text-decoration: none;
     color: rgba($color: #ff9100, $alpha: 1.0);
 }
+
+#h_id_shop_box{
+    background-color: rgba(150, 0, 0, 0.400);
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkorange;
+    padding: 15px;
+}
 }
 
 // Main Login JSX Component

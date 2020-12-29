@@ -57,7 +57,8 @@ export class MainHeader extends React.Component{
             </div>
             <div id="h_id_shop">
                 <a id="h_id_shop_link1" href="/login">
-                <div id="h_id_shop_box">Account
+                <div id="h_id_shop_box">
+                  Login
                 </div>
                 </a>
             </div>

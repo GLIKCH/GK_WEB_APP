@@ -24,7 +24,7 @@ const Home = () => {
             <source src={GKVideo} type="video/mp4" />
             </video>
             <MainHeader id="h_id_header" />
-            <MainContent id="h_id_content" />
+            <div id="id_content"></div>
         </div>
     );
 }
