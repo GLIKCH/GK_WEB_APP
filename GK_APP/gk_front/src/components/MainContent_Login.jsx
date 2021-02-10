@@ -9,7 +9,7 @@ import React from 'react';
 import '../scss/Components.scss';
 
 // Video / Image Imports
-import GKL01 from '../images/Variations/GKL_Primary.png';
+import GKL01 from '../images/Variations/GKSP06.png';
 import GKL02 from '../images/Variations/GKL_NEON01.png';
 
 // JSX Component and Return
@@ -41,14 +41,9 @@ export class MainLogin extends React.Component{
     return(
         <div className="MainLogin">
             {/* Logo IMG Section */}
+
             <div id="l_id_content">
-                <a href="/">
-                <img id="l_id_logo"
-                 src={this.state.logoImg} 
-                 alt="Main-Logo" 
-                 onMouseOver={this.handleMouseOver} 
-                 onMouseOut={this.handleMouseOut} />
-                </a>
+               
                 
                 <form id="l_id_form" action="/login">
                 <ol>

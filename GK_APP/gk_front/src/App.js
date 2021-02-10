@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
 import GK_HOME from './pages/GK_HOME';
 import GK_LOGIN from './pages/GK_LOGIN';
 import GK_SHOP from './pages/GK_SHOP';
-import GK_BLOG from './pages/GK_BLOG';
+import GK_FORUM from './pages/GK_FORUM';
 import GK_RESEARCH from "./pages/GK_RESEARCH";
 import GK_NEWS from "./pages/GK_NEWS";
 import GK_CONTACT from './pages/GK_CONTACT';
@@ -17,7 +17,6 @@ import GK_CONTACT from './pages/GK_CONTACT';
 import './scss/App.scss';
 
 // Image Imports
-
 
 // JSX Component and Return
 function App() {
@@ -31,8 +30,8 @@ function App() {
           <Route path="/products">
             <GK_SHOP />
           </Route>
-          <Route path="/blog">
-            <GK_BLOG />
+          <Route path="/forum">
+            <GK_FORUM />
           </Route>
           <Route path="/research">
             <GK_RESEARCH />

@@ -5,7 +5,7 @@ import React from 'react';
 import { BrowserRouter as Router, } from 'react-router-dom';
 
 // Component Imports
-import GKVideo from '../videos/GK_BG04.mp4';
+import GKVideo from '../videos/GK_BG10.mp4';
 import MainHeader from '../components/MainHeader';
 import MainContent from '../components/MainContent';
 
@@ -24,7 +24,9 @@ const Home = () => {
             <source src={GKVideo} type="video/mp4" />
             </video>
             <MainHeader id="h_id_header" />
-            <div id="id_content"></div>
+            <div id="id_content">
+
+            </div>
         </div>
     );
 }

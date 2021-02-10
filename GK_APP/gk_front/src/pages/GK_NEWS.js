@@ -5,8 +5,8 @@ import React from 'react';
 import { BrowserRouter as Router, } from 'react-router-dom';
 
 // Component Imports
-import GKVideo from '../videos/GK_BG04.mp4';
-import MainHeader from '../components/MainHeader';
+import GKVideo from '../videos/GK_BG11.mp4';
+import NewsHeader from '../components/headers/NewsHeader';
 import MainContent from '../components/MainContent';
 
 // SCSS Imports
@@ -23,8 +23,8 @@ const Home = () => {
             <video id="h_id_video" autoPlay playsinline loop muted>
             <source src={GKVideo} type="video/mp4" />
             </video>
-            <MainHeader id="h_id_header" />
-            <div id="id_content"></div>
+            <NewsHeader id="h_id_header" />
+            <div id="id_content_news"></div>
         </div>
     );
 }

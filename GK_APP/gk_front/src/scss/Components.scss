@@ -192,6 +192,313 @@
 }
 }
 
+// ---------------------------------------------------------------------------- //
+// -- // // -- // // -- // // Styling for BlogHeader // // -- // // -- // // -- //
+// ---------------------------------------------------------------------------- //
+
+.BlogHeader {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 30em auto 30em;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6em;
+    position: relative; 
+    top: 1;
+}
+
+#bh_id_logo {
+    display: flex;
+    margin-left: 4em;
+    width: auto;
+    height: 3.25em;
+}
+
+#bh_id_logo_box {
+    display: flex;
+    align-items: center;
+    margin-right: 5em;
+    width: 18em;
+    height: 4.5em;
+}
+
+#bh_id_nav {
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 50em;
+    height: 3em;
+    background-color: rgba(50, 100, 0, 0.3);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(160, 250, 0);
+    border-width: 1px;
+}
+
+#bh_id_nav:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px rgb(0, 255, 115);
+}
+
+#bh_id_nav_link1,
+#bh_id_nav_link2,
+#bh_id_nav_link3,
+#bh_id_nav_link4,
+#bh_id_nav_link5 {
+    font-family: HermesRegular;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 1em;
+    margin: 1px;
+    text-decoration: none;
+    color: rgb(64, 255, 0);
+}
+
+#bh_id_nav_link1:hover,
+#bh_id_nav_link2:hover,
+#bh_id_nav_link3:hover,
+#bh_id_nav_link4:hover,
+#bh_id_nav_link5:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba($color: #00ff9d, $alpha: 1.0);
+    -webkit-text-decoration-color: red;
+}
+
+#bh_id_shop {
+    display: grid;
+    grid-column: 3 / 4;
+    justify-items: center;
+    align-self: center;
+    align-items: center;
+    width: 20em;
+    height: 5em;
+    margin-right: 4em;
+}
+
+#bh_id_shop_link1 {
+    font-family: HermesRegular;
+    display: flex;
+    font-size: 32px;
+    text-decoration: none;
+    color: rgb(64, 255, 0);
+}
+
+#bh_id_shop_box{
+    background-color: rgba(50, 100, 0, 0.3);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(160, 250, 0);
+    padding: 15px;                                               
+}                                                                                   
+
+// -------------------------------------------------------------------------------- //
+// -- // // -- // // -- // // Styling for ResearchHeader // // -- // // -- // // -- //
+// -------------------------------------------------------------------------------- //
+
+.BlogHeader {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 30em auto 30em;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6em;
+    position: relative; 
+    top: 1;
+}
+
+#bh_id_logo {
+    display: flex;
+    margin-left: 4em;
+    width: auto;
+    height: 3.25em;
+}
+
+#bh_id_logo_box {
+    display: flex;
+    align-items: center;
+    margin-right: 5em;
+    width: 18em;
+    height: 4.5em;
+}
+
+#bh_id_nav {
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 50em;
+    height: 3em;
+    background-color: rgba(50, 100, 0, 0.3);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(160, 250, 0);
+    border-width: 1px;
+}
+
+#bh_id_nav:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px rgb(0, 255, 115);
+}
+
+#bh_id_nav_link1,
+#bh_id_nav_link2,
+#bh_id_nav_link3,
+#bh_id_nav_link4,
+#bh_id_nav_link5 {
+    font-family: HermesRegular;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 1em;
+    margin: 1px;
+    text-decoration: none;
+    color: rgb(64, 255, 0);
+}
+
+#bh_id_nav_link1:hover,
+#bh_id_nav_link2:hover,
+#bh_id_nav_link3:hover,
+#bh_id_nav_link4:hover,
+#bh_id_nav_link5:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba($color: #00ff9d, $alpha: 1.0);
+    -webkit-text-decoration-color: red;
+}
+
+#bh_id_shop {
+    display: grid;
+    grid-column: 3 / 4;
+    justify-items: center;
+    align-self: center;
+    align-items: center;
+    width: 20em;
+    height: 5em;
+    margin-right: 4em;
+}
+
+#bh_id_shop_link1 {
+    font-family: HermesRegular;
+    display: flex;
+    font-size: 32px;
+    text-decoration: none;
+    color: rgb(64, 255, 0);
+}
+
+// -------------------------------------------------------------------------------- //
+// -- // // -- // // -- // // Styling for NewsHeader // // -- // // -- // // -- //
+// -------------------------------------------------------------------------------- //
+
+.NewsHeader {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 30em auto 30em;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6em;
+    position: relative; 
+    top: 1;
+}
+
+#nh_id_logo {
+    display: flex;
+    margin-left: 4em;
+    width: auto;
+    height: 3.25em;
+}
+
+#nh_id_logo_box {
+    display: flex;
+    align-items: center;
+    margin-right: 5em;
+    width: 18em;
+    height: 4.5em;
+}
+
+#nh_id_nav {
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 50em;
+    height: 3em;
+    background-color: rgba(50, 100, 0, 0.3);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(250, 0, 180);
+    border-width: 1px;
+}
+
+#nh_id_nav:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px rgb(255, 0, 120);
+}
+
+#nh_id_nav_link1,
+#nh_id_nav_link2,
+#nh_id_nav_link3,
+#nh_id_nav_link4,
+#nh_id_nav_link5 {
+    font-family: HermesRegular;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 1em;
+    margin: 1px;
+    text-decoration: none;
+    color: rgb(250, 0, 150);
+}
+
+#nh_id_nav_link1:hover,
+#nh_id_nav_link2:hover,
+#nh_id_nav_link3:hover,
+#nh_id_nav_link4:hover,
+#nh_id_nav_link5:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba($color: #00ff9d, $alpha: 1.0);
+    -webkit-text-decoration-color: red;
+}
+
+#nh_id_shop {
+    display: grid;
+    grid-column: 3 / 4;
+    justify-items: center;
+    align-self: center;
+    align-items: center;
+    width: 20em;
+    height: 5em;
+    margin-right: 4em;
+}
+
+#nh_id_shop_link1 {
+    font-family: HermesRegular;
+    display: flex;
+    font-size: 32px;
+    text-decoration: none;
+    color: rgb(64, 255, 0);
+}
+
+#nh_id_shop_box{
+    background-color: rgba(50, 100, 0, 0.3);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(160, 250, 0);
+    padding: 15px;
+}
+
 // Main Login JSX Component
 // Class Name Parent Tags
 .MainLogin {
@@ -212,10 +519,10 @@
     justify-content: center;
     justify-items: center;
     align-items: center;
-    background-color: rgba(150, 0, 0, 0.400);
+    background-color: rgba(0, 51, 106, 0.4);
     border-style: solid;
     border-width: 1px;
-    border-color: darkorange;
+    border-color: rgb(0, 145, 255);
     width: 60em;
     height: 35em;
 }
@@ -229,7 +536,6 @@
 
 #l_id_form {
     grid-row: 3 / 4;
-    background-color: rgba(200, 45, 45, 0.800);
     width: 30em;
     height: 15em;
     display: flex;
@@ -276,4 +582,9 @@ label {
 
 li {
     list-style-type: none;
+}
+
+#loginlogo {
+    width: 15em;
+    background-color: white;
 }

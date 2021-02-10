@@ -1,4 +1,4 @@
-// Responsive Media Querie @ XL
+// Responsive Media Query @ XL
 @media (min-width: 1200px) {
 .h-home {
   display: grid;
@@ -49,4 +49,56 @@
   cursor: pointer;
   box-shadow: 0px 0px 10px 2px rgb(255, 150, 0);
   background-color: rgba(175, 0, 0, 0.4);
+}
+
+#id_content_blog{
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+  width: 100em;
+  height: 46em;
+  background-color: rgba(50, 100, 0, 0.3);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(160, 250, 0);
+  position: relative;
+  top: 1;
+  overflow: auto;
+}
+
+#id_content_blog:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 2px rgb(0, 255, 115);
+}
+
+#id_content_news{
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+  width: 100em;
+  height: 46em;
+  background-color: rgba(200, 0, 250, 0.350);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(250, 0, 180);
+  position: relative;
+  top: 1;
+  overflow: auto;
+}
+
+#id_content_news:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 2px rgb(255, 0, 120);
+}
+
+#l_id_logo {
+  display: flex;
+  position: relative;
+  top: 1;
 }
