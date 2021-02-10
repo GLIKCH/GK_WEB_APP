@@ -1,21 +1,21 @@
+/////////////////////////////////////
+//// GK DEV -- Home Page Header ////
+///////////////////////////////////
+
 // Main JSX React imports
 import React from 'react';
 
 // Routing Imports
-
 // Component Imports
-
 // SCSS Imports
-import '../scss/Components.scss';
+import '../../scss/Components.scss';
 
 // Video / Image Imports
-import GKL01 from '../images/Variations/GKL_Primary.png';
-import GKL02 from '../images/Variations/GKL_NEON01.png';
+import GKL01 from '../../images/Variations/GKL_Primary.png';
+import GKL02 from '../../images/Variations/GKL_NEON01.png';
 
 // JSX Component and Return
-
 export class MainHeader extends React.Component{
-
     constructor(props) {
         super(props);
         this.state = {

@@ -7,7 +7,7 @@ import { BrowserRouter as Router, } from 'react-router-dom';
 // Component Imports
 import GKVideo from '../videos/GK_BG11.mp4';
 import NewsHeader from '../components/headers/NewsHeader';
-import MainContent from '../components/MainContent';
+
 
 // SCSS Imports
 import '../scss/Pages.scss';

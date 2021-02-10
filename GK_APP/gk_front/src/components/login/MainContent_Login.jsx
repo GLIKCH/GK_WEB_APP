@@ -6,16 +6,15 @@ import React from 'react';
 // Component Imports
 
 // SCSS Imports
-import '../scss/Components.scss';
+import '../../scss/Components.scss';
 
 // Video / Image Imports
-import GKL01 from '../images/Variations/GKSP06.png';
-import GKL02 from '../images/Variations/GKL_NEON01.png';
+import GKL01 from '../../images/Variations/GKSP06.png';
+import GKL02 from '../../images/Variations/GKL_NEON01.png';
 
 // JSX Component and Return
 
 export class MainLogin extends React.Component{
-
     constructor(props) {
         super(props);
         this.state = {

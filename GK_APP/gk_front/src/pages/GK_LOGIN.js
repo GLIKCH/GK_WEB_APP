@@ -3,7 +3,7 @@ import React from 'react';
 
 // Routing Imports
 // Component Imports
-import GK_LOGIN from '../components/MainContent_Login';
+import GK_LOGIN from '../components/login/MainContent_Login';
 import GK_LOGIN_LOGO from '../components/logos/L.Logo';
 
 // SCSS Imports

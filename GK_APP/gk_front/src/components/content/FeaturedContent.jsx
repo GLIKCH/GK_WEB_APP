@@ -18,11 +18,13 @@ export class Featured extends React.Component{
 
     render(){
     return(
-        <div className="MainContent">
-        <div id="m_id_c1box">
-            
+        <React.Fragment>
+        <div id="f_id_content">
         </div>
+        <div id="f_id_content">
+
         </div>
+        </React.Fragment>
     );
     }
 }

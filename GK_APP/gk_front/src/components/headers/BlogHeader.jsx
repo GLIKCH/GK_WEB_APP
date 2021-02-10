@@ -2,9 +2,7 @@
 import React from 'react';
 
 // Routing Imports
-
 // Component Imports
-
 // SCSS Imports
 import "../../scss/Components.scss";
 import '../../images/me.png';
@@ -14,9 +12,7 @@ import GKL01 from '../../images/Variations/GK_DISABLED03.png';
 import GKL02 from '../../images/Variations/GKSP03.png';
 
 // JSX Component and Return
-
 export class BlogHeader extends React.Component{
-
     constructor(props) {
         super(props);
         this.state = {

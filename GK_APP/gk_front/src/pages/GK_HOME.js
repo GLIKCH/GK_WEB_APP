@@ -6,9 +6,9 @@ import { BrowserRouter as Router, } from 'react-router-dom';
 
 // Component Imports
 import GKVideo from '../videos/GK_BG04.mp4';
-import MainHeader from '../components/MainHeader';
-import MainContent from '../components/MainContent';
-import Featured from '../components/content/Featured';
+import MainHeader from '../components/headers/MainHeader';
+
+import Featured from '../components/content/FeaturedContent';
 
 // SCSS Imports
 import '../scss/Pages.scss';
@@ -20,6 +20,7 @@ import '../scss/Pages.scss';
 const Home = () => {
     return(
         <div className="h-home">
+
             {/* Background Video */}
             <video id="h_id_video" autoPlay playsinline loop muted>
             <source src={GKVideo} type="video/mp4" />
@@ -30,6 +31,8 @@ const Home = () => {
 
             {/* Main Content Window */}
             <div id="id_content">
+
+            {/* Featured Shop Images Component */}
             <Featured id="h_id_featured" />
             </div>
         </div>

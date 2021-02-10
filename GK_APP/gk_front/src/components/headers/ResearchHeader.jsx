@@ -38,9 +38,12 @@ export class NewsHeader extends React.Component{
         });
       }
 
+
+
+      //////////////////////////////////////// Fix ////////////////////////////////////
     render(){
     return(
-        <div className="BlogHeader">
+        <div className="ResearchHeader">
             {/* Logo IMG Section */}
             <div id="bh_id_logo_box">
                 <a href="/" ><img id="bh_id_logo" 
@@ -68,5 +71,7 @@ export class NewsHeader extends React.Component{
     }
 }
 
+      //////////////////////////////////////// Fix ////////////////////////////////////
+
 // Default Export Method for Component
-export default NewsHeader;
+export default ResearchHeader;
