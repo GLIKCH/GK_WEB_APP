@@ -33,7 +33,7 @@ const Home = () => {
             <div id="id_content">
 
             {/* Featured Shop Images Component */}
-            <Featured id="h_id_featured" />
+            {/* <Featured id="h_id_featured" /> */}
             </div>
         </div>
     );
