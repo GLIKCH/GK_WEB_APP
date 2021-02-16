@@ -1,15 +1,25 @@
+// SCSS Code Index
+
+ // 7 - Font Family Integration
+ // 13 - Body Sizing
+//  19 - Responsive Media Queries - Max Size
+
+ // Font Family Integration
 @font-face {
     font-family: HermesRegular;
     src: url("../fonts/Hermes-Regular.otf");
 }
 
+// Body Sizing
 * {
     margin: 0;
     padding: 0;
 }
 
-@media (min-width: 1450px) { 
-// Parent Header DIV
+// Responsive @Media Queries
+@media (min-width: 1450px) {
+
+// Main Header JSX Component
 .MainHeader {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
@@ -24,90 +34,6 @@
     top: 1;
 }
 
-.MainContent {
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    grid-column: 2 / 3;
-    grid-row: 4 / 5;
-    width: 100em;
-    height: 46em;
-    background-color: rgba(150, 0, 0, 0.400);
-    border-style: solid;
-    border-width: 1px;
-    border-color: darkorange;
-    position: relative;
-    top: 1;
-    overflow: auto;
-}
-
-// #m_id_c1box {
-//     display: flex;
-//     flex-direction: flex-end;
-//     justify-items: center;
-//     justify-content: center;
-//     align-items: center;
-//     width: 100%;
-    
-// }
-
-// #m_id_section1 {
-//     background-color: rgba(150, 0, 0, 0.400);
-//     border-style: solid;
-//     border-color: rgb(255, 123, 0);
-//     border-width: 1px;
-//     width: 30%;
-//     height: 42em;
-//     margin: 1.25em;
-// }
-
-// #m_id_section1:hover {
-//     width: 31%;
-//     height: 43em;
-//     box-shadow: 0px 0px 20px 5px rgb(255, 166, 0);
-// }
-
-// #m_id_section2 {
-//     background-color: rgba(150, 0, 0, 0.400);
-//     border-style: solid;
-//     border-color: rgb(255, 123, 0);
-//     border-width: 1px;
-//     width: 30%;
-//     height: 42em;
-//     margin: 1.25em;
-// }
-
-// #m_id_section2:hover {
-//     width: 31%;
-//     height: 43em;
-//     box-shadow: 0px 0px 20px 5px rgb(255, 166, 0);
-// }
-
-// #m_id_sec2img1{
-//     width: 100%;
-//     height: 100%;
-// }
-
-// #m_id_section3 {
-//     background-color: rgba(150, 0, 0, 0.400);
-//     border-style: solid;
-//     border-color: rgb(255, 123, 0);
-//     border-width: 1px;
-//     width: 30%;
-//     height: 42em;
-//     margin: 1.25em;
-// }
-
-// #m_id_section3:hover {
-//     width: 31%;
-//     height: 43em;
-//     box-shadow: 0px 0px 20px 5px rgb(255, 166, 0);
-// }
-
-// Child Object ID of MainHeader DIV
-
-// Main Header JSX Component
 #h_id_logo {
     display: flex;
     margin-left: 4em;

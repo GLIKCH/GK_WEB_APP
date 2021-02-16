@@ -1,3 +1,7 @@
+// SCSS Code Index
+// 5 - Responsive Media Query XL
+// 17 - Full Screen Video
+
 // Responsive Media Query @ XL
 @media (min-width: 1200px) {
 .h-home {
@@ -9,6 +13,7 @@
   position: relative;
   top: 1;
 }
+
 // Responsive Full Screen Video
 #h_id_video {
   object-fit: cover;
@@ -34,7 +39,7 @@
   display: flex;
   grid-column: 2 / 3;
   grid-row: 4 / 5;
-  width: 100em;
+  width: 60em;
   height: 46em;
   background-color: rgba(150, 0, 0, 0.400);
   border-style: solid;
