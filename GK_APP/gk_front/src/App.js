@@ -5,13 +5,13 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
 
 // Component Imports
-import GK_HOME from './pages/GK_HOME';
-import GK_LOGIN from './pages/GK_LOGIN';
-import GK_SHOP from './pages/GK_SHOP';
-import GK_FORUM from './pages/GK_FORUM';
-import GK_RESEARCH from "./pages/GK_RESEARCH";
-import GK_NEWS from "./pages/GK_NEWS";
-import GK_CONTACT from './pages/GK_CONTACT';
+import GKHome from './pages/GK_HOME';
+import gkLogin from './pages/GK_LOGIN';
+import gkProducts from './pages/GK_Products';
+import gkForum from './pages/GK_FORUM';
+import gkResearch from "./pages/GK_RESEARCH";
+import gkNews from "./pages/GK_NEWS";
+import gkContact from './pages/GK_CONTACT';
 
 // SCSS Imports
 import './scss/App.scss';
@@ -25,25 +25,25 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/">
-            <GK_HOME />
+            <GKHome />
           </Route>
           <Route path="/products">
-            <GK_SHOP />
+            <gkProducts />
           </Route>
           <Route path="/forum">
-            <GK_FORUM />
+            <gkForum />
           </Route>
           <Route path="/research">
-            <GK_RESEARCH />
+            <gkResearch />
           </Route>
           <Route path="/news">
-            <GK_NEWS />
+            <gkNews />
           </Route>
           <Route path="/contact">
-            <GK_CONTACT />
+            <gkContact />
           </Route>
           <Route path="/login">
-            <GK_LOGIN />
+            <gkLogin />
           </Route>
         </Switch>
       </Router>

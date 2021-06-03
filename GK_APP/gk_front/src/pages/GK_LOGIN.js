@@ -3,8 +3,8 @@ import React from 'react';
 
 // Routing Imports
 // Component Imports
-import GK_LOGIN from '../components/login/MainContent_Login';
-import GK_LOGIN_LOGO from '../components/logos/L.Logo';
+import gkLogin from '../components/login/MainContent_Login';
+import gkLoginLogo from '../components/special/L.Logo';
 
 // SCSS Imports
 import '../scss/Pages.scss';
@@ -21,8 +21,8 @@ const Login = () => {
         <video id="l_id_video" autoPlay playsinline loop muted>
         <source src={GKVideo} type="video/mp4" />
         </video>
-        <GK_LOGIN_LOGO id="l_id_logo"/>
-        <GK_LOGIN href="/" id="l_id_content" />
+        <gkLoginLogo id="l_id_logo"/>
+        <gkLogin href="/" id="l_id_content" />
         </div>
     );
 }

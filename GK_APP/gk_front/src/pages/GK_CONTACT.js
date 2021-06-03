@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Routing Imports
-import { BrowserRouter as Router, } from 'react-router-dom';
+// import { BrowserRouter as Router, } from 'react-router-dom';
 
 // Component Imports
 import GKVideo from '../videos/GK_BG10.mp4';

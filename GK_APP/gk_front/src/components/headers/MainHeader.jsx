@@ -41,13 +41,13 @@ export class MainHeader extends React.Component{
     return(
         <div className="MainHeader">
             {/* Logo IMG Section */}
-            <div id="h_id_logo_box">
+            {/* <div id="h_id_logo_box">
                 <a href="/" ><img id="h_id_logo" 
                  src={this.state.logoImg} 
                  alt="Main-Logo" 
                  onMouseOver={this.handleMouseOver} 
                  onMouseOut={this.handleMouseOut} /></a>
-            </div>
+            </div> */}
             <div id="h_id_nav">
                 <a id="h_id_nav_link1" href="/products">Products</a>
                 <a id="h_id_nav_link2" href="/forum">Forum</a>

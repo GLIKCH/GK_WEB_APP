@@ -11,7 +11,7 @@ import BlogHeader from '../components/headers/BlogHeader';
 import '../scss/Pages.scss';
 
 // Video / Image Imports
-import ME from '../images/me.png';
+// import ME from '../images/me.png';
 
 // JSX Component and Return
 
