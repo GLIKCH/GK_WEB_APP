@@ -1,25 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+// Main JSX React imports
+import React from 'react';
 
+// Routing Imports
+import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
+
+// Component Imports
+import GKIntro from './Pages/intro';
+
+
+// SCSS Imports
+import './scss/App.scss';
+
+// Image Imports
+
+// JSX Component and Return
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Switch>
+          <Route exact path="/intro">
+            <GKIntro />
+          </Route>
+          {/* <Route path="/products">
+            <gkProducts />
+          </Route>
+          <Route path="/forum">
+            <gkForum />
+          </Route>
+          <Route path="/research">
+            <gkResearch />
+          </Route>
+          <Route path="/news">
+            <gkNews />
+          </Route>
+          <Route path="/contact">
+            <gkContact />
+          </Route>
+          <Route path="/login">
+            <gkLogin />
+          </Route> */}
+        </Switch>
+      </Router>
     </div>
-  );
-}
+    );
+  }
 
+// Default Export Method for Component
 export default App;
