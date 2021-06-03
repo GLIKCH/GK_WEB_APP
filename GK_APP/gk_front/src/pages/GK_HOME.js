@@ -30,7 +30,6 @@ const Home = () => {
             <MainHeader id="h_id_header" />
 
             {/* Main Content Window */}
-            <div id="id_content">
 
             {/* Featured Shop Images Component */}
             {/* <Featured id="h_id_featured" /> */}
