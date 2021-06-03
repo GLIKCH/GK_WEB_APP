@@ -13,7 +13,8 @@ import GKVideo from '../videos/GK_BG02.mp4';
 import '../scss/Pages.scss';
 
 // Video / Image Imports
-import Logo from '../Images/GKLOGO03_01.png';
+import Logo from '../Images/Variations/GKL_NEON01.png';
+import Term01 from '../Images/term01.png';
 
 // JSX Component and Return
 
@@ -31,23 +32,41 @@ const Home = () => {
             
 
             <div class="block1"></div>
-            <div class="block2">
-            <ul id="ul1">
-            <li><a href="/home">Home</a></li>
-            <li><a href="/shop">Shop</a></li>
-            <li><a href="/groups">Groups</a></li>
+
+            <div class="Header">
+
+            {/* Navigation Left */}
+            <ul id="navl">
+            <li id="gknav"><a href="/intro">Home</a></li>
+            <li id="gknav"><a href="/shop">Shop</a></li>
+            <li id="gknav"><a href="/groups">Groups</a></li>
             </ul>
+
+            {/* Navigation Logo Middle */}
             <a href="/intro"><img href="/home" id="homeLogo" src={Logo} alt="logo"></img></a>
-            <ul id="ul2">
-            <li><a href="/code">Code</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/contact">Contact</a></li>
+            
+            {/* Navigation Right */}
+            <ul id="navr">
+            <li id="gknav"><a href="/code">Code</a></li>
+            <li id="gknav"><a href="/portfolio">News</a></li>
+            <li id="gknav"><a href="/contact">Contact</a></li>
             </ul>
+
             </div>
             <div class="block3"></div>
-            <div class="block4"></div>
+            <div class="block4">
+            </div>
             <div class="block5">
-            <div id="content5">.</div>
+            <ul class="gksidenav">
+            <li id="sidelink"><a href="/gknews">Profile</a></li>
+            <li id="sidelink"><a href="/gkresources">Resources</a></li>
+            <li id="sidelink"><a href="/gkresearch">Cheats</a></li>
+            <li id="sidelink"><a href="/gknews">News</a></li>
+            </ul>
+            <div id="content5">
+            <img id="term1" src={Term01}></img>
+            <h1>Under Construction...</h1>
+            </div>
             </div>
             <div class="block6"></div>
 
